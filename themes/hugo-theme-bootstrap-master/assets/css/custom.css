@@ -1,0 +1,26 @@
+/**
+ * Create a file "assets/css/custom.cssjs" to customize CSS.
+ * PLEASE DO NOT MODIFY THIS FILE DIRECTLY.
+ **/
+
+@font-face {
+        font-family:consolas;
+        src:url("../fonts/consola.ttf");
+     }
+
+@font-face {
+        font-family:zhankukuaile;
+        src:url("../fonts/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf");
+     }
+
+@font-face {
+        font-family:avqest;
+        src:url("../fonts/avqest.ttf");
+     }
+
+@font-face {
+        font-family:UKIJEkran;
+        src:url("../fonts/UKIJEkran.ttf");
+     }
+
+

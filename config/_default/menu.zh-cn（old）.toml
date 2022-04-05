@@ -1,0 +1,19 @@
+[[main]]
+  identifier = "dropdown"
+  name = "音乐"
+  pre = '<i class="fas fa-fw fa-chevron-circle-down"></i>'
+[[main]]
+  id = "music1"
+  parent = "dropdown"
+  name = "1"
+  pre = '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=86 src="//music.163.com/outchain/player?type=2&id=692472&auto=0&height=66"></iframe>'
+  url = "https://music.163.com/#/song?id=692472"
+[[main]]
+  id = "music2"
+  parent = "dropdown"
+  name = "2"
+  pre = '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=86 src="//music.163.com/outchain/player?type=2&id=692528&auto=0&height=66"></iframe>'
+  url = "https://music.163.com/#/song?id=692528"
+
+
+

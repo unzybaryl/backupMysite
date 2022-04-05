@@ -1,0 +1,5 @@
+[[main]]
+  identifier = "dropdown"
+  name = "随记"
+  pre = '<i class="fas fa-fw fa-info-circle"></i>'
+  url = '/essay/'

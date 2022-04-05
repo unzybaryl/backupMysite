@@ -1,0 +1,39 @@
+{{ if or .Site.Params.backgroundDark .Site.Params.backgroundImageDark }}
+<nav class="ui secondary menu dream-menu">
+{{ else if .Site.Params.darkNav }}
+<nav class="ui secondary inverted menu dream-menu">
+{{ else }}
+<nav class="ui secondary menu dream-menu" style="width: 100%">
+{{ end }}
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="{{ i18n "flip" }}"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="{{ i18n "home" }}" onclick="window.location.href = '{{ .Site.BaseURL }}'"></i>
+  </div>
+  {{ if or .Site.Params.backgroundDark .Site.Params.backgroundImageDark }}
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+  {{ end }}
+  {{ if .Site.Params.enableSearch }}
+  <div class="item">
+    <i class="large link search icon" onclick="toggleSearch()"></i>
+  </div>
+  {{ end }}
+  <div class="item">
+          <a href="{{ "posts" | relLangURL }}">
+        <i class="large link archive icon" title="{{ T "archives" }}"></i>
+      </a>
+  </div>
+  <div class="item">
+          <a  href="{{ "categories" | relLangURL }}">
+        <i class="large link th list icon" title="{{ T "allCategories" }}"></i>
+      </a>
+  </div>
+  <div class="item">
+          <a  href="{{ "tags" | relLangURL }}">
+        <i class="large link tags icon" title="{{ T "allTags" }}"></i>
+      </a>
+  </div>
+</nav>

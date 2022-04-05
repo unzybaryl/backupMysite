@@ -1,0 +1,6 @@
+name = "Unzybaryl"
+avatar = "images/profile1.jpg" # Avatar image. Default to "images/profile.webp".
+bio = "星空の中へと。用途も無き星達へと。"
+company = ""
+location = "世界为一体的状态"
+about = "/about/" # The external about page. The internal about page will be used if not set.

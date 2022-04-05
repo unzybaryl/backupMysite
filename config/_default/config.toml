@@ -1,0 +1,73 @@
+baseURL = "unzybaryl.com"
+title = "Unzybaryl`s Sekai"
+theme = "hugo-theme-bootstrap-master"
+copyright = "Copyright © 2021-{year} Unaybaryl. All Rights Reserved."
+
+
+# Multilingual mode
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = false
+
+# Pagination
+paginate = 7
+# paginatePath = "page"
+
+# Disqus
+# disqusShortname = "yourdiscussshortname"
+
+# Google analytics
+# googleAnalytics = "UA-123-45"
+
+enableRobotsTXT = true
+
+enableEmoji = true
+
+hasCJKLanguage = true # Turn on it if your content contains Chinese/Japanese/Korean Languages.
+
+pygmentsUseClasses = true
+
+[params]
+  comment = true
+  toc = true
+  breadcrumb = true
+  logo = "images/profile1.jpg"
+  math = true
+  reward = false
+  poweredBy = false
+  description = "Personal Blog"
+  keywords = "Blog"
+  palette = "pink"
+  palettes = []
+  recentPostCount = 7
+  fullwidth = true
+  fixHeader = true
+  tagCount = 50
+  seriesCount = 30
+  categoryCount = 30
+
+
+  [reward]
+    alipay = ""
+    wechat = ""
+  [fontSize]
+    small = 0.9
+    large = 3
+  [share]
+    addThis = "ra-61a3a841eb844c6c"
+
+
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  
+
+
+
