@@ -2,6 +2,7 @@
 title = "【废案/想法】网络社交空间"
 date =  2021-12-01
 math = true
+draft = true
 categories = [
   "数学类"
   ]

@@ -1,11 +1,11 @@
 [[main]]
-  identifier = "dropdown"
-  name = "随记"
-  pre = '<i class="fas fa-fw fa-comment"></i>'
-  url = '/essay/'
+  #identifier = "dropdown"
+  #name = "随记"
+  #pre = '<i class="fas fa-fw fa-comment"></i>'
+  #url = '/essay/'
 
 [[main]]
-  parents = "dropdown"
-  name = "下载"
-  pre = '<i class="fas fa-fw fa-link"></i>'
-  url = '/download/'
+  #parents = "dropdown"
+  #name = "下载"
+  #pre = '<i class="fas fa-fw fa-link"></i>'
+  #url = '/download/'
