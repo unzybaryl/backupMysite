@@ -5,7 +5,7 @@ description = "百年孤独中关于梅尔基亚德斯（Melquíades）和科学
 featured = false
 reward = false
 categories = [
-  "小说类"
+  "文字类"
 ]
 tags = [
   "梅尔基亚德斯"

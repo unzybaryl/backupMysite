@@ -5,7 +5,7 @@ description = "百年孤独中阿玛兰妲的全部片段。"
 featured = false
 reward = false
 categories = [
-  "小说类"
+  "文字类"
 ]
 tags = [
   "阿玛兰妲"

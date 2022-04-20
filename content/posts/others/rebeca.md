@@ -5,7 +5,7 @@ description = "收集丽贝卡在百年孤独出现的所有片段。"
 featured = false
 reward = false
 categories = [
-  "小说类"
+  "文字类"
 ]
 tags = [
   "丽贝卡"
