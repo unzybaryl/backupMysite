@@ -2,6 +2,10 @@
  * Create a file "assets/css/custom.cssjs" to customize CSS.
  * PLEASE DO NOT MODIFY THIS FILE DIRECTLY.
  **/
+@font-face {
+        font-family:timesnewroman;
+        src:url("../fonts/Times New Roman.ttf");
+     }
 
 @font-face {
         font-family:consolas;
