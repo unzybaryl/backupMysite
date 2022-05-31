@@ -1,6 +1,6 @@
-name = "昨日鳥"
+name = "機能鳥"
 avatar = "images/profile1.jpg" # Avatar image. Default to "images/profile.webp".
-bio = "星空の中へと。用途も無き星達へと。"
+bio = "バカです　何度もバカだって言ってるじゃないですか"
 company = ""
 location = "世界为一体的状态"
 about = "/about/" # The external about page. The internal about page will be used if not set.
