@@ -115,15 +115,26 @@ $$
 
 证明方法直接利用极限定义分步法即可。
 
-证明过程中注意
+---
+
+①证明过程中注意
 $$
 \frac{1}{2^n} \sum \limits_{k=0}^{N} \binom{n}{k}\left| a_k-a \right|<\frac{M(1+n+\cdots+n^N)}{2^n}<\varepsilon
 $$
 中利用了$\binom{n}{k}<n^k$。可以这样观察这个式子：
 $$
-\binom{n}{k} = \frac{n!}{k!(n-k)!}=\frac{(n-k+1)(n-k+2)\cdots(n)}{k!}=\frac{(n+1-k)(n+1-k-1)\cdots n}{k\cdot(k-1)\cdots1}<n^k
+\begin{aligned}\binom{n}{k} = \frac{n!}{k!(n-k)!}&=\frac{(n-k+1)(n-k+2)\cdots(n)}{k!}\\ &=\frac{(n+1-k)(n+1-k-1)\cdots n}{k\cdot(k-1)\cdots1}<n^k\end{aligned}
 $$
 对于每个单项可以发现$n>\frac{n+1-k-i}{k-i}$。
+
+②关于组合数有以下公式参考：
+
+1. $2^n=(1+1)^n=\binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}=\sum \limits_{k=0}^{n}\binom{n}{k}$
+2. $0=(1-1)^n=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\binom{n}{3}+\cdots$
+3. $\frac{1}{2}\cdot2^n = 1+\binom{n}{2}+\binom{n}{4}+\cdots$
+4. $cosm\alpha  = 2^{m-1}cos^m\alpha -(\binom{m}{2}+2\binom{m}{4}+\cdots)cos^{m-2}\alpha +\cdots$
+
+第4条公式<sup>[2]</sup>是通过$cosm\alpha+isinm\alpha = (cos\alpha+isin\alpha)^m$计算后分虚实部得来的，利用这个公式可以导出常用的二倍角三倍角公式，在高中我们通常是用三角恒等式变换得到这些公式的。
 
 这个部分其余的证明方法想不出来，反正必须要$ \sum \limits_{k=0}^{N}\binom{n}{k}$部分放缩到是$2^n$的无穷小量即可，当然我们知道这是肯定的。
 
@@ -137,7 +148,7 @@ $$
 $$
 但这是如果应用Stolz定理会发现不能简化问题：
 $$
-\frac{p_{n+1}-p_{n}}{q_{n+1}-q_{n}}=\frac{\binom{n}{1}a_0+\binom{n}{1}a_1+\cdots+\binom{n}{n}a_{n-1}+a_n+a_{n+1}}{\binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}}
+\frac{p_{n+1}-p_{n}}{q_{n+1}-q_{n}}=\frac{a_1+\binom{n}{1}a_2+\binom{n}{2}a_3+\cdots+\binom{n}{n-2}a_{n-1}+\binom{n}{n-1}a_n+a_{n+1}}{\binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}}\qquad \left[\binom{n+1}{i}=\binom{n}{i-1}+\binom{n}{i}\right]
 $$
 <br>
 
@@ -193,3 +204,5 @@ $$
 <br>
 
 [1]谢惠民,恽自求. 数学分析习题课讲义. 北京: 高等教育出版社, 2018.
+
+[2]丘维声. 高等代数学习指导书.上册. 北京: 清华大学出版社, 2017.
