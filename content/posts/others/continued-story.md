@@ -10,10 +10,9 @@ categories = [
 ]
 tags = [
  "鲁路修",
- "动漫歌曲"
 ]
 series = [
- ""
+"动漫歌曲"
 ]
 images = [
 "images/cc.jpg"

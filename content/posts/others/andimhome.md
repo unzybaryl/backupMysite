@@ -9,11 +9,10 @@ categories = [
 ]
 tags = [
   "anime",
-  "动漫歌曲",
   "魔法少女小圆",
   ]
 series = [
-  "魔法少女まどか☆マギカ",
+"动漫歌曲"
 ]
 images = [
 "images/andimhome.jpg"

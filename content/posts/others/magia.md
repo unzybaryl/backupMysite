@@ -10,10 +10,11 @@ categories = [
 ]
 tags = [
  "魔法少女小圆",
- "动漫歌曲"
+ "kalafina"
 ]
 series = [
- "魔法少女まどか☆マギカ"
+ "动漫歌曲"
+
 ]
 images = [
 
